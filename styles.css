@@ -200,7 +200,7 @@ footer {
 /* ////// Responsive ////// */
 @media(max-width:768px) {
     .hamburger {
-        display:block ;
+        display:none ;
 
     }
     .hamburger.active .bar:nth-child(2) {
@@ -236,13 +236,13 @@ footer {
 
 
 .bodys {
-    height: 90vh;
+    height: 95vh;
 }
 /* //// APP //// */
 .container {
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 60%;
+  top: 65%;
   left: 50%;
   width: 90vw;
   max-width: 37.5em;
